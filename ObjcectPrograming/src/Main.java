@@ -23,7 +23,14 @@ public class Main {
 //
 //
 
-toyota corolla = new toyota();
+Toyota corolla = new Toyota(2019, "corolla hybrid", true, 10, "leather");
 corolla.startEngine();
+
+
+Vehicle vehicle = new Vehicle(2000, "ok", true, 999999 );
+vehicle.startEngine();
+
+Opel astra = new Opel(2013, "H", true, 12000, Drive.FWD);
+astra.startEngine();
     }
 }
