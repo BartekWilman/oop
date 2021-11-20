@@ -32,5 +32,14 @@ vehicle.startEngine();
 
 Opel astra = new Opel(2013, "H", true, 12000, Drive.FWD);
 astra.startEngine();
+
+
+Cat kot = new Cat();
+kot.sound();
+kot.sleep();
+
+Dog pies = new Dog();
+pies.sound();
+pies.sleep();
     }
 }
